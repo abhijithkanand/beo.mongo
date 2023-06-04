@@ -1,0 +1,27 @@
+beo.mongo
+
+Installation
+Clone the repository
+Navigate to the project directory: cd beo.mongo
+Install the dependencies: npm install
+
+Running the Application
+npm run start
+This will start the application and perform the database tasks.
+
+Usage
+1. Creating the MongoDB Database and Collection
+A MongoDB database called "beo" with a collection called "users" has been created.
+
+2. Adding a New User
+To add a new user to the "users" collection
+3. Retrieving Users with Email Domain
+To retrieve all users with the email domain "example.com", a MongoDB query has been implemented.
+
+Database Services
+The application provides two main services for interacting with the database:
+
+Inserting User: A service that allows inserting new users into the "users" collection. Password hashing and token generation are performed as pre-functions using bcrypt and jsonwebtoken libraries.
+
+Finding Users by Email Domain: A service that retrieves users with a specific email domain from the "users" collection.
+

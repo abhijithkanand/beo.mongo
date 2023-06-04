@@ -1,0 +1,19 @@
+{
+  "name": "beo.mongo",
+  "version": "1.0.0",
+  "author": "Abhijith",
+  "main": "index.js",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^15.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.11.0",
+    "nodemon": "^2.0.22"
+  }
+}
